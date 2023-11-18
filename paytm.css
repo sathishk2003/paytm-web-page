@@ -1,0 +1,299 @@
+/* CSS for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.navbar img {
+    margin-right: 10px;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-links {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.avatar {
+    margin-left: 5px;
+}
+
+/* CSS for the KYC section */
+.kyc {
+    height: 50px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    font-size: 18px;
+}
+
+.wallet {
+    font-weight: bold;
+    color: rgb(19, 18, 18);
+}
+
+/* Additional CSS for general styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+/* CSS for the section-2 */
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.left-section {
+    max-width: 50%;
+}
+
+.logo {
+    margin-bottom: 10px;
+}
+
+.head {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.para {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #ff6d00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* CSS for the section-2 */
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.left-section {
+    max-width: 50%;
+}
+
+.logo {
+    margin-bottom: 10px;
+}
+
+.head {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.para {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #47848b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* CSS for the section-2 */
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.left-section {
+    max-width: 50%;
+}
+
+.logo {
+    margin-bottom: 10px;
+}
+
+.head {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.para {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #ff6d00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.recharge-section{
+    width: 1180px;
+    background-color: #00baf2;
+    color: white;
+    margin-bottom:0;
+    display: flex;
+}
+
+.inner-section{
+    width: 60%;
+    margin:auto;
+}
+
+.heading{
+    font-size: 40px;
+    padding-top: 70px;
+}
+
+.rc-child{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding-bottom:50px;
+}
+.rc-logo{
+    height: 50px;
+    width: 64px;
+}
+
+.inner-div{
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.book-section{
+    width: 100%;
+    background-color: #0f4a8a;
+    color: white;
+    margin-top: 0;
+    display: flex;
+}
+
+.cards {
+    text-align: center;
+    margin: 20px;
+}
+
+.card-heading {
+    font-size: 50px;
+    margin-bottom: 20px;
+    outline-color: rgb(209, 34, 34);
+}
+
+.box-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.first-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.card-content {
+    flex: 1;
+    padding: 10px;
+}
+
+
+.image-title {
+    display: flex;
+    align-items: center;
+}
+
+.rc-logo {
+    margin-right: 10px;
+}
+
+.title-text {
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.card-head {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.para-title {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.card-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right-logo {
+    max-width: 100%;
+    height: auto;
+}
+

@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        table{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        th{
+            padding: 10px;
+        }
+        tr{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body style="background-color:powderblue;">
+    
+        <form action="/registration" method="post">
+            <table border="2px">
+              <tr>
+                  <th colspan="2"><h1>paytm sign in</h1></th><br>
+        
+              </tr>
+              <tr>
+                  <th><label for="firstname"> firstname:</label></th>
+                  <th><input type="text" id="firstname" name="firstname" required></th>
+              </tr>
+              <tr>
+                  <th><label for="lastname">lastname:</label></th>
+                  <th><input type="lastname" id="lastname" name="lastname" required></th>
+              </tr>
+              <tr>
+                  <th><label for="Accountnumber">Account number:</label></th>
+                  <th><input type="number" id="Accountnumber" name="Accountnumber" required></th>
+              </tr>
+              <tr>
+                  <th><label for="dateofbirth">date of birth:</label></th>
+                  <th><input type="date" id="dateofbirth" name="dateofbirth" required></th>
+              </tr>
+              <tr>
+                  <th><label for="gender">gender:</label></th>
+                  <th><input type="radio" id="gender" name="gender">male
+                      <input type="radio" id="gender" name="gender">female
+                 </th>
+              </tr>
+              <tr>
+                  <th><label for="email">email:</label></th>
+                  <th><input type="email" id="email" name="email" required></th>
+              </tr>
+              <tr>
+                  <th><label for="mobileno">mobile.no:</label></th>
+                  <th><input type="number" id="mobileno" name="mobileno" required></th>
+              </tr>
+              <tr>
+                  <th><label for="address">address:</label></th>
+                  <th><textarea name="address" id="address" cols=20 rowa="10"></textarea></th> 
+              </tr>
+              <tr>
+                  <th><label for="state">state:</label></th>
+                  <th><input type="text" name="state" id="state" required></th>
+              </tr>
+              <tr>
+                  <th><label for="city">city:</label></th>
+                  <th><input type="text" name="city" id="city" required></th>
+              </tr>
+              <tr>
+                  <th><label for="Branch address">Branch address</label></th>
+                  <th><input type="Branch address" name="Branchaddress" required></th>
+              </tr>
+              <tr>
+                  <th> </th>
+                  <th> <input type="submit" values="submit"></th>
+             </tr>
+            </table>
+        </form>
+    </body>
+</html>
